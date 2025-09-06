@@ -37,5 +37,5 @@ jobs:
         working-directory: ./Terraform-VPC
       - name: Terraform Destroy
         id: destory
-        run: terraform destroy 
+        run: terraform destroy --auto-apporve
         working-directory: ./Terraform-VPC
